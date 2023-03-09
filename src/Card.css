@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    width: 400px;
+    border: 2px solid #d6f49d;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6f49d;
+}

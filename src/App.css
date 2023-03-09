@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 8px;
+    width: 220px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+
+button {
+    border-radius: 8px;
+    height: 32px;
+    cursor: pointer;
+    background-color: beige;
+    width: 100%;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
